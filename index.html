@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" class="light-theme">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="centring">
+      <div class="calc">
+        <div class="calc__display-place">
+          <div class="calc__switch-style">
+            <label class="calc__switch">
+              <input type="checkbox" id="style-check" />
+              <span class="calc__slider"></span>
+            </label>
+            <div class="calc__switch-text">Switch to Dark</div>
+          </div>
+          <div class="calc__math-example"></div>
+          <div class="calc__input-number">0</div>
+        </div>
+        <div class="calc__line-between"></div>
+        <div class="calc__work-place">
+          <ul class="calc__work-buttons">
+            <il
+              ><button class="calc__first-buttons buttons" id="clearBtn">
+                AC
+              </button></il
+            >
+            <il
+              ><button
+                class="calc__first-buttons buttons"
+                id="positiveNegativeButton"
+              >
+                +/-
+              </button></il
+            >
+            <il
+              ><button
+                class="calc__first-buttons buttons"
+                id="percentByNumberButton"
+              >
+                %
+              </button></il
+            >
+            <il><button class="calc__operation-buttons buttons">/</button></il>
+            <il><button class="buttons calc__digit-buttons">7</button></il>
+            <il><button class="buttons calc__digit-buttons">8</button></il>
+            <il><button class="buttons calc__digit-buttons">9</button></il>
+            <il><button class="calc__operation-buttons buttons">x</button></il>
+            <il><button class="buttons calc__digit-buttons">4</button></il>
+            <il><button class="buttons calc__digit-buttons">5</button></il>
+            <il><button class="buttons calc__digit-buttons">6</button></il>
+            <il><button class="calc__operation-buttons buttons">-</button></il>
+            <il><button class="buttons calc__digit-buttons">1</button></il>
+            <il><button class="buttons calc__digit-buttons">2</button></il>
+            <il><button class="buttons calc__digit-buttons">3</button></il>
+            <il><button class="calc__operation-buttons buttons">+</button></il>
+            <il class="calc__2-column-grid"
+              ><button class="buttons calc__2-column-content">0</button></il
+            >
+            <il><button class="buttons" id="separatorNumberBtn">,</button></il>
+            <il><button class="calc__equally-button buttons">=</button></il>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="scripts/script.js"></script>
+</html>
